@@ -1,0 +1,21 @@
+{
+  "name": "text-send",
+  "main": "./lib/text-send",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "text-send:toggle"
+  },
+  "repository": "https://github.com/atom/text-send",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "osc": "^2.2.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.7.3"
+  }
+}

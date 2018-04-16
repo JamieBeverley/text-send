@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle text-send",
+        "command": "text-send:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "text-send",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "text-send:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
